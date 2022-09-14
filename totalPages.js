@@ -1,6 +1,7 @@
 const { template } = require('@babel/core')
 
 function totalPages(arrayItems, rowsPerPage) {
+<<<<<<< HEAD
   if (arrayItems === undefined || arrayItems === null) {
     return undefined
   } else if (rowsPerPage === undefined || rowsPerPage === null) {
@@ -13,4 +14,9 @@ function totalPages(arrayItems, rowsPerPage) {
   
   
 
+=======
+  //code here
+  console.log('hello')
+}
+>>>>>>> deda2f7eb802a63dd6552ec3d382d6f598668a76
 module.exports = totalPages
